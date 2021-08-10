@@ -1,1 +1,6 @@
 dump.txt
+*__pycache__*
+Scripts/*
+Lib/*
+Include/*
+pyvenv.cfg
