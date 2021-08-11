@@ -13,7 +13,7 @@ with open('dump.txt') as dump:
     db_pass = urllib.parse.quote_plus(split[1])
 
 server = "localhost:5432"
-db_name = "test" # Currently using test table
+db_name = "test" # Currently using test database
 
 app.config['SQLALCHEMY_DATABASE_URI'] = f'postgresql://{db_user}:{db_pass}@{server}/{db_name}'
 
